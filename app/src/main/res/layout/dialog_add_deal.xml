@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <EditText
+        android:id="@+id/etCompanyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название компании"
+        android:textColorHint="#5a5c6b"
+        />
+
+    <EditText
+        android:id="@+id/etQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Количество"
+        android:textColorHint="#5a5c6b"
+        />
+
+    <EditText
+        android:id="@+id/etPurchaseDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата покупки"
+        android:textColorHint="#5a5c6b"
+        />
+
+    <EditText
+        android:id="@+id/etPricePerUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Цена за 1 шт."
+        android:textColorHint="#5a5c6b"
+        />
+</LinearLayout>
